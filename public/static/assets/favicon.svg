@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <style>
+    rect {
+      fill: #0c0c0c;
+    }
+
+    path {
+      fill: #383838;
+      stroke: #383838;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      rect {
+        fill: #0c0c0c;
+      }
+
+      path {
+        fill: #c0c0c0;
+        stroke: #c0c0c0;
+      }
+    }
+
+    @media (prefers-color-scheme: light) {
+      rect {
+        fill: #a0a0a0;
+      }
+
+      path {
+        fill: #1d1d1d;
+        stroke: #1d1d1d;
+      }
+    }
+  </style>
+  <rect
+     style="fill-opacity:1"
+     width="10"
+     height="10"
+     x="0"
+     y="0"
+     ry="1.5" />
+  <g
+     transform="translate(0,3.5000005)">
+    <path
+       style="fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0,0 V 1 3 H 5 V 0 H 4 V 2 H 3 V 1 H 2 V 2 H 1 V 1 0 H 0 v 0 0" />
+    <path
+       style="fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 10,2 H 7 v 1 h 3 V 2" />
+    <path
+       style="fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 9.4,0.2 7,2 7.6,2.8 10,1 9.4,0.2" />
+    <path
+       style="fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 6,0 4.2111457,0.89442716 4.6583593,1.7888543 6.4472134,0.89442706 6,0" />
+    <path
+       style="fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 6,0 v 1 h 4 V 0 H 6" />
+  </g>
+</svg>
