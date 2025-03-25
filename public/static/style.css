@@ -1,50 +1,4 @@
-@font-face {
-  font-family: League Spartan;
-  src: url('/static/fonts/league-spartan/LeagueSpartan-ExtraLight.woff2') format('woff2');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: League Spartan;
-  src: url('/static/fonts/league-spartan/LeagueSpartan-Light.woff2') format('woff2');
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: League Spartan;
-  src: url('/static/fonts/league-spartan/LeagueSpartan-Medium.woff2') format('woff2');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: League Spartan;
-  src: url('/static/fonts/league-spartan/LeagueSpartan-Regular.woff2') format('woff2');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: League Spartan;
-  src: url('/static/fonts/league-spartan/LeagueSpartan-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: League Spartan;
-  src: url('/static/fonts/league-spartan/LeagueSpartan-Bold.woff2') format('woff2');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: League Spartan;
-  src: url('/static/fonts/league-spartan/LeagueSpartan-ExtraBold.woff2') format('woff2');
-  font-weight: 800;
-}
-
-@font-face {
-  font-family: League Spartan;
-  src: url('/static/fonts/league-spartan/LeagueSpartan-Black.woff2') format('woff2');
-  font-weight: 900;
-}
+@import url('/static/fonts.css');
 
 @media screen {
   body {
@@ -303,11 +257,11 @@ a.external:hover>span.external-text::after {
 }
 
 span.email-me::before {
-  content: '\1F4E7';
+  content: '\1f4e7';
   margin-right: .5em;
 }
 
-span.visit-log::before {
-  content: '\1F4DC';
+span.visit-helvetica::before {
+  content: '\1f4dc';
   margin-right: .5em;
 }
